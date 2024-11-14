@@ -1,0 +1,157 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+   justify-content: center;
+   
+
+}.resume{
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    position: relative;
+
+}
+.heading{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2{
+    width: 100%;
+    height: 90px;
+    font-weight: 600;
+    position: relative;
+    background-color: rgb(14, 106, 109);
+    color: aliceblue;
+    box-shadow: 2px 2px 6px black;
+    padding-top: 40px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px rgb(247, 147, 164);
+    font-size: 1.9em;
+
+
+}.left{
+    padding-left: 4px;
+    font-size: 1em;
+    line-height: 1.5em;
+    border-right: 2px solid black;
+    text-transform: capitalize;
+    padding-right: 6px;
+    font-weight: 500;
+
+}.main{
+    display: grid;
+    grid-template-columns: 44% 56%;
+    width: 95%;
+    margin-bottom: 30px;
+}
+.right{
+    padding-left: 4px;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+h3{
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 17px;
+    padding: 3px 1px;
+    border: 3px solid cadetblue;
+}
+.bottom{
+    width: 95%;
+    display: flex;
+    justify-content: end;
+    padding: 7px;
+    gap: 10px;
+    margin-top: 40px;
+    border-bottom: 2px solid black;
+} 
+
+.bottom-btn{
+    border-radius: 5px;
+    background-color:rgb(89, 201, 205);
+    border: 3px solid rgb(89, 201, 205);
+    box-shadow: 2px 2px 6px black;;
+    padding-right: 8px;
+    text-shadow: 1px 1px 2px pink;
+    margin-right: 20px;
+    height: 45px;
+    width: 110px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+@keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      
+              transform: scale(1);
+              transform-origin: center center;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      
+              transform: scale(0.91);
+              animation-timing-function: ease-in;
+    }
+    17% {
+            transform: scale(0.98);
+            animation-timing-function: ease-out;
+    }
+    33% {
+      
+              transform: scale(0.87);
+              animation-timing-function: ease-in;
+    }
+    45% {
+      
+              transform: scale(1);
+             animation-timing-function: ease-out;
+    }
+  }
+  
